@@ -1,4 +1,5 @@
 <div class="center">
-  <video loop playsinline autoplay muted src="../assets/video/poalof-loop-opt.mp4"></video>
+  <video loop playsinline autoplay muted onloadedmetadata="this.muted = true"
+    src="../assets/video/poalof-loop-opt.mp4"></video>
   <audio [src]="playSong" autoplay preload="auto"></audio>
 </div>
